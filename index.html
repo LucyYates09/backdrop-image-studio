@@ -58,7 +58,7 @@
     </section>
   </main>
   <script>
-    const ratios=[{label:'3:4',w:3,h:4},{label:'2:3',w:2,h:3},{label:'1:1',w:1,h:1},{label:'4:3',w:4,h:3},{label:'3:2',w:3,h:2},{label:'16:9',w:16,h:9}];
+    const ratios=[{label:'3:4',w:3,h:4},{label:'2:3',w:2,h:3},{label:'4:5',w:4,h:5},{label:'9:16',w:9,h:16},{label:'1:1',w:1,h:1},{label:'4:3',w:4,h:3},{label:'3:2',w:3,h:2},{label:'1.91:1',w:1.91,h:1},{label:'16:9',w:16,h:9}];
     const backgrounds=[['极光蓝',['#bff3ff','#6487ff','#e8c8ff']],['海盐',['#d9f8ff','#c6d5ff','#f2ddff']],['日落',['#ffd6b8','#ff9bad','#b29bff']],['青柠',['#d9ffd0','#8fe8c4','#8ab8ff']],['午夜',['#0e1838','#243d89','#7c45a6']],['奶油',['#fff9ec','#f7e9d2']],['纯白',['#ffffff']],['石墨',['#171923']]];
     let ratio=ratios[0],background=backgrounds[0][1],image=null,fileName='image';
     const $=id=>document.getElementById(id),canvas=$('canvas'),ctx=canvas.getContext('2d');
